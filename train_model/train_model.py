@@ -16,10 +16,10 @@ data = data.filter(lambda line: line!=header).map(lambda line: line.split(",")).
 training_RDD, test_RDD = data.randomSplit([7, 3], seed=0L)
 
 # build model
-rank = 10
+rank = 35
 seed = 5L
-iterations = 10
-regularization_parameter = 0.1
+iterations = 25
+regularization_parameter = 0.4
 
 model = ALS.train(training_RDD, rank, seed=seed, iterations=iterations, lambda_=regularization_parameter)
 
