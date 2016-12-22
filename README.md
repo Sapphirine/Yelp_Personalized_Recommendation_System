@@ -1,5 +1,6 @@
 # Yelp_Personalized_Recommendation_System
-Group 201612-73 Final Project
+Group 201612-73 Final Project  
+Xun Xue(xx2241) Zhangyu Liu(zl2513), Lingyu Zhang(lz2494)
 
 
 ## How to use this project
