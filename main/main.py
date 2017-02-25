@@ -70,8 +70,8 @@ def send():
 				for item in business:
 					a[i] = a[i] + model.similarity(keyword,item)
 				dic[a[i]] = lda_list[i]
-					#!!!!!!!!!!!gaichicken!!!!!!!!!#############################
-			#a = np.sort(a,axis=0)
+					
+			
 			a = sorted(a, reverse=True)
 			Recommendation = []
 			#a = np.ndarray.tolist(a)
